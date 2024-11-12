@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "697711994101",
+    "project_id": "timekeeper-86ec9",
+    "storage_bucket": "timekeeper-86ec9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697711994101:android:c6404d5dba6f24ffef11bc",
+        "android_client_info": {
+          "package_name": "com.leos.timekeeper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_0Ni64QA5WhYECROjhET0Rs2zEYD7WHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
