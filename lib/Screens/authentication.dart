@@ -183,7 +183,7 @@ class _AuthScreenState extends State<AuthScreen> {
                   // Forgot Password Button (use GoRouter)
                   TextButton(
                     onPressed: () {
-                      context.go('/forgot-password'); // Use GoRouter
+                      context.push('/forgot-password'); // Use GoRouter
                     },
                     child: Text(
                       'Forgot Password?',
@@ -287,7 +287,7 @@ class ForgotPasswordScreen extends StatelessWidget {
                         ),
                       );
 
-                      context.go('/');
+                      context.push('/');
                     } catch (e) {
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(

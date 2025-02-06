@@ -111,7 +111,7 @@ class ManagerDashboard extends StatelessWidget {
                         // Use context.go for navigation
                         TextButton(
                           onPressed: () {
-                            context.go(
+                            context.push(
                               '/view-timecard?employeeId=$employeeId&employeeName=$employeeName',
                             );
                           },

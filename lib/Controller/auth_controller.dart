@@ -49,7 +49,7 @@ class AuthController extends GetxController {
       );
 
       // Navigate to the home screen or dashboard (example using Get)
-      context.go('/home'); // Replace '/home' with your home route
+      context.push('/home'); // Replace '/home' with your home route
     } catch (e) {
       // Show an error message
       ScaffoldMessenger.of(context).showSnackBar(
@@ -74,7 +74,7 @@ class AuthController extends GetxController {
       );
 
       // Navigate to the home screen or dashboard (example using Get)
-      context.go('/home'); // Replace '/home' with your home route
+      context.push('/home'); // Replace '/home' with your home route
     } catch (e) {
       // Show an error message
       ScaffoldMessenger.of(context).showSnackBar(
@@ -100,7 +100,7 @@ class AuthController extends GetxController {
       );
 
       // Navigate to the sign-in screen (example using Get)
-      context.go('/'); // Replace '/' with your sign-in route
+      context.push('/'); // Replace '/' with your sign-in route
     } catch (e) {
       // Show an error message
       ScaffoldMessenger.of(context).showSnackBar(

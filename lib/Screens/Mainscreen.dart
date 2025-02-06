@@ -88,7 +88,7 @@ class MainScreen extends StatelessWidget {
                     if (accountType == AccountType.manager || accountType == AccountType.contractor)
                       ElevatedButton(
                         onPressed: () {
-                          context.go('/clockin-clockout'); // Use GoRouter
+                          context.push('/clockin-clockout'); // Use GoRouter
                         },
                         child: Text('Clock In/Out'),
                         style: ElevatedButton.styleFrom(
@@ -105,7 +105,7 @@ class MainScreen extends StatelessWidget {
                     if (accountType == AccountType.manager)
                       ElevatedButton(
                         onPressed: () {
-                          context.go('/manager-dashboard'); // Use GoRouter
+                          context.push('/manager-dashboard'); // Use GoRouter
                         },
                         child: Text('Manager Dashboard'),
                         style: ElevatedButton.styleFrom(
@@ -122,7 +122,7 @@ class MainScreen extends StatelessWidget {
                     if (accountType == AccountType.manager || accountType == AccountType.contractor)
                       ElevatedButton(
                         onPressed: () {
-                          context.go('/timecard'); // Use GoRouter
+                          context.push('/timecard'); // Use GoRouter
                         },
                         child: Text('View Timecard'),
                         style: ElevatedButton.styleFrom(
